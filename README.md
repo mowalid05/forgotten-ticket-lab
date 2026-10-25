@@ -11,13 +11,6 @@ docker compose up --build
 
 Open <http://127.0.0.1:5000>. Stop with `docker compose down`.
 
-Unique flags per instance (for example one per group):
-
-```bash
-FLAG_SUFFIX=group2 docker compose up --build
-```
-
-This turns `CyberX{errors_are_instructions}` into `CyberX{errors_are_instructions_group2}`.
 
 ## Contents
 
@@ -29,7 +22,7 @@ student/STUDENT_HANDOUT.md                   Task sheet for students (no solutio
 student/obsidian-template.md                 Report template for Obsidian
 ```
 
-The `instructor/` and `student/` folders are excluded from the Docker image.
+
 
 ## Sharing with students
 
