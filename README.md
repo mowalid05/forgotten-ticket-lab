@@ -66,10 +66,11 @@ A flag without an explanation earns partial credit.
 Ask for a hint privately if you are stuck, after trying on your own. Using a hint carries no penalty.
 
 ## Contents
+
 ```
-compose.yaml, Dockerfile, requirements.txt Docker setup
-app.py, templates/, static/ The lab application
-student/obsidian-template_nothenStar_CTF.md Report template for Obsidian
+compose.yaml, Dockerfile, requirements.txt    Docker setup
+app.py, templates/, static/                   The lab application
+student/obsidian-template_nothenStar_CTF.md   Report template for Obsidian
 ```
 
 ## For instructors
@@ -77,3 +78,4 @@ student/obsidian-template_nothenStar_CTF.md Report template for Obsidian
 - Host one instance on a server reachable only by students (a tunnel, VPN or allow-list).
 - If students run it locally they receive the source. Share a pre-built image instead, or rely on the graded explanation.
 - Give students this README and the Obsidian template.
+
