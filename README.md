@@ -10,8 +10,9 @@ Northstar uses a small support portal to display customer tickets. The portal ha
 Every flag looks like `CyberX{...}`. Work on your own.
 
 ## Run
-
 ```bash
+git clone https://github.com/mowalid05/forgotten-ticket-lab
+cd forgotten-ticket-lab
 docker compose up --build
 ```
 
