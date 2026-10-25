@@ -1,0 +1,15 @@
+﻿# Instructor-only material (solutions, hints, rubric)
+instructor/
+PRESENTER_GUIDE.md
+*.pptx
+
+# Python / local
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

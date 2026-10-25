@@ -1,0 +1,12 @@
+services:
+  portal:
+    build: .
+    ports:
+      # Bound to localhost only. Do not expose this intentionally vulnerable
+      # training app to the public internet.
+      - "127.0.0.1:5000:5000"
+    environment:
+      # Optional: set FLAG_SUFFIX in your shell or a .env file to make the flags
+      # unique per instance, e.g. FLAG_SUFFIX=group2
+      - FLAG_SUFFIX=${FLAG_SUFFIX:-}
+    restart: unless-stopped
