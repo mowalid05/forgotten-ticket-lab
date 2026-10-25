@@ -49,21 +49,8 @@ For each flag you find, write:
 
 Also include:
 
-- The relevant request and your baseline (tasks 2 and 3)
-- A **dead ends** table: what you tried that led nowhere, and what you learned
-- A short reflection: what should the team that built this portal change?
 
-A flag without an explanation earns partial credit.
 
-## Scoring (20 points)
-
-| Criterion | Points |
-|---|---:|
-| Relevant request and baseline | 2 |
-| Each flag (5 flags): 1 for the flag, 2 for the evidence and explanation | 15 |
-| Investigation trail, including dead ends | 3 |
-
-Ask for a hint privately if you are stuck, after trying on your own. Using a hint carries no penalty.
 
 ## Contents
 
@@ -73,9 +60,4 @@ app.py, templates/, static/                   The lab application
 student/obsidian-template_nothenStar_CTF.md   Report template for Obsidian
 ```
 
-## For instructors
-
-- Host one instance on a server reachable only by students (a tunnel, VPN or allow-list).
-- If students run it locally they receive the source. Share a pre-built image instead, or rely on the graded explanation.
-- Give students this README and the Obsidian template.
 
