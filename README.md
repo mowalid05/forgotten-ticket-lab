@@ -1,7 +1,7 @@
 ﻿# The Forgotten Ticket: lab files
 
 A small Flask app for the CyberX web CTF methodology session. **Five flags** are hidden in it.
-Do not expose it to the public internet.
+
 
 ## Scenario
 
